@@ -4,9 +4,9 @@
 
 ## 问题
 
-有个用户上传的照片，预览时是横的，用户反馈我们的展示有问题。
-测试发现，在苹果手机查看是竖的，在安卓手机查看是横的，用户手机为安卓系统。
-查看该照片的EXIF信息得知，`orientation`为`90 CW`。
+有个用户上传的照片，预览时是横的，用户反馈我们的展示有问题。  
+测试发现，在苹果手机查看是竖的，在安卓手机查看是横的，用户手机为安卓系统。  
+查看该照片的EXIF信息得知，`orientation`为`90 CW`。  
 使用OPPO R15和华为拍照测试，一直没有复现用户拍出来的情况，该用户手机机型为vivo iQOO
 
 ## 手机拍摄方向
@@ -32,7 +32,7 @@ EXIF是可交换图像文件格式 (Exchangeable image file format，简称Exif)
 
 下图表示拍摄方向与JEPG保存方式的关系。
 
-![JEPG-Rotation-EXIF-Orientation](./JEPG-Rotation-EXIF-Orientation.png)
+![JEPG-Rotation-EXIF-Orientation](JEPG-Rotation-EXIF-Orientation.png)
 
 相机4个拍摄方向，照片`EXIF orientation`对应为
 
@@ -48,7 +48,7 @@ Orientation | 1 | 8 | 3 | 6
 
 ### 图片的变换
 
-![图片方向](./orient_flag.gif)
+![图片方向](orient_flag.gif)
 
 ## 浏览器如何展示照片
 
